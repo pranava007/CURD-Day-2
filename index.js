@@ -11,9 +11,9 @@ app.use(cors())
 
 app.use('/api', emproutes )
 
-// app.get('/',(req,res)=>{
-//     res.status(200).send("API Running Susseccfully");
-// })
+app.get('/',(req,res)=>{
+    res.status(200).send("API Running Susseccfully");
+})
 
 
 app.listen(PORT,(req,res)=>{
